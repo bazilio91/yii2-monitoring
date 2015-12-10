@@ -1,0 +1,22 @@
+{
+    "name": "bazilio/yii2-monitoring",
+    "description": "Yii2 RUM and serverside monitoring with statsd",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasily Ostanin",
+            "email": "bazilio91@gmail.com"
+        }
+    ],
+    "keywords": ["yii2", "monitoring", "statsd", "RUM"],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bazilio\\yii\\monitoring": ""
+        }
+    }
+}
